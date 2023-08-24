@@ -36,7 +36,7 @@ app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 
 
 // Start the server
-const port = process.env.PORT;
+const port = process.env.PORT || 3000;
 console.log(port);
 
 
